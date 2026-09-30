@@ -90,3 +90,4 @@ d:\DAM\DESARROLLO DE APLICACIONES MULTIPLATAFORMA\2º\Proyecto Intermodular\App\
 d:\DAM\DESARROLLO DE APLICACIONES MULTIPLATAFORMA\2º\Proyecto Intermodular\App\Proyecto_Intermodular_APP\obj\Debug\net10.0\Proyecto_Intermodular_APP.pdb
 d:\DAM\DESARROLLO DE APLICACIONES MULTIPLATAFORMA\2º\Proyecto Intermodular\App\Proyecto_Intermodular_APP\obj\Debug\net10.0\Proyecto_Intermodular_APP.genruntimeconfig.cache
 d:\DAM\DESARROLLO DE APLICACIONES MULTIPLATAFORMA\2º\Proyecto Intermodular\App\Proyecto_Intermodular_APP\obj\Debug\net10.0\ref\Proyecto_Intermodular_APP.dll
+D:\DAM\DESARROLLO DE APLICACIONES MULTIPLATAFORMA\2º\Proyecto Intermodular\App\Proyecto_Intermodular_APP\obj\Debug\net10.0\Proyecto_Intermodular_APP.sourcelink.json

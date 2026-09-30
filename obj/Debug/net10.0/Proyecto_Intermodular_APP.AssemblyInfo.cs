@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Proyecto_Intermodular_APP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2b6b2383bce4c3b4febf1fc060014895e7d55698")]
 [assembly: System.Reflection.AssemblyProductAttribute("Proyecto_Intermodular_APP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Proyecto_Intermodular_APP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
