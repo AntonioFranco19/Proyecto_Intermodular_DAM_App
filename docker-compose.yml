@@ -28,6 +28,22 @@ services:
       timeout: 5s
       retries: 5
 
+  api:
+    build: ./backend
+    container_name: api_tienda
+    restart: unless-stopped
+    environment:
+      DB_HOST: mysql
+      DB_PORT: 3306
+      DB_USER: app_user
+      DB_PASSWORD: app_password
+      DB_NAME: app_db
+    ports:
+      - "8000:8000"
+    depends_on:
+      mysql:
+        condition: service_healthy
+
   phpmyadmin:
     image: phpmyadmin:latest
     container_name: phpmyadmin
