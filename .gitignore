@@ -1,2 +1,52 @@
+# Archivos generados por el propio sistema
+.DS_Store
+Thumbs.db
+
+# Editores e IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/settings.json
+.history/
+*.swp
+
+# Logs y temporales
+*.log
+*.class
+
+# Python (backend)
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Flutter / Dart (frontend)
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.pub-cache/
+**/.pub/
+**/build/
+**/coverage/
+**/doc/api/
+*.symbols
+app.*.symbols
+app.*.map.json
+
+# Android (frontend/android)
+**/android/app/debug
+**/android/app/profile
+**/android/app/release
+**/android/local.properties
+**/android/.gradle/
+**/android/key.properties
+**/*.jks
+
+# Windows (frontend/windows)
+**/windows/flutter/ephemeral/
+
+# Compilados de .NET (de la plantilla original)
 bin/
 obj/
