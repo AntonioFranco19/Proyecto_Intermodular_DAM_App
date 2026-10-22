@@ -3,7 +3,7 @@
 -- Compatible con MySQL 8.0
 -- Sustituye al init.sql anterior (sql/init.sql)
 -- =====================================================
-
+SET NAMES utf8mb4;
 CREATE DATABASE IF NOT EXISTS app_db
   CHARACTER SET utf8mb4
   COLLATE utf8mb4_unicode_ci;
