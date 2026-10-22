@@ -16,11 +16,11 @@ services:
     entrypoint: ["sh", "-c"]
     command:
       - |
-        docker-entrypoint.sh mysqld &
+        docker-entrypoint.sh mysqld --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci &
         pid=$$!
         trap 'kill -TERM $$pid' TERM INT
         until mysqladmin ping -h 127.0.0.1 -uroot -p"$$MYSQL_ROOT_PASSWORD" --silent 2>/dev/null; do sleep 2; done
-        mysql -h 127.0.0.1 -uroot -p"$$MYSQL_ROOT_PASSWORD" < /sql/init.sql
+        mysql --default-character-set=utf8mb4 -h 127.0.0.1 -uroot -p"$$MYSQL_ROOT_PASSWORD" < /sql/init.sql
         wait $$pid
     healthcheck:
       test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-uroot", "-prootpassword"]
