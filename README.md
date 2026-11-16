@@ -85,6 +85,7 @@ La aplicación se compone de un único cliente Flutter que, tras autenticarse, m
 |---|---|
 | Flutter / Dart | Framework multiplataforma para la interfaz |
 | `package:http` | Comunicación con la API |
+| `package:fluttertoast` | Notificaciones emergentes |
 
 El proyecto prioriza el uso de las librerías nativas de Flutter. Las dependencias externas se incorporan únicamente cuando su necesidad está justificada.
 
