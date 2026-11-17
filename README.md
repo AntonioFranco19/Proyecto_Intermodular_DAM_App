@@ -210,9 +210,9 @@ GitHub Actions ejecutará en cada Pull Request las siguientes comprobaciones:
 
 | Nombre | Rol |
 |---|---|
-| [Nombre 1] | [Rol] |
-| [Nombre 2] | [Rol] |
-| [Nombre 3] | [Rol] |
+| Antonio Franco | [Rol] |
+| Sebastian Stancu | [Rol] |
+| Alejandro Nuñez | [Rol] |
 
 ## Licencia
 
